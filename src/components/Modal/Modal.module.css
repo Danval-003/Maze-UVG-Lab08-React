@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.modal {
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: 'Press Start 2P', sans-serif;
+  }
+  
+  .modalContent {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .displayBlock {
+    display: block;
+  }
+  
+  .displayNone {
+    display: none;
+  }
+  
+  .load {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  
+  .loadingText {
+    font-size: 24px;
+    margin-top: 20px;
+  }
+  
+  .victoryCss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .victoryIcon {
+    font-size: 64px;
+    margin-bottom: 20px;
+  }
+  
+  .victoryText {
+    font-size: 24px;
+    color: black;
+  }
+  

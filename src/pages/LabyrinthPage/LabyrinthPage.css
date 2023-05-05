@@ -1,0 +1,18 @@
+.timerComponent{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    z-index: 1;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    color: black;
+}
+
+.mazeContainer{
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}

@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.timerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background-color: #000000;
+  }
+  
+  .timerDisplay {
+    font-family: "Press Start 2P", cursive;
+    font-size: 1rem;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+    letter-spacing: 4px;
+    padding: 10px 20px;
+    border: 5px solid #408e60;
+    position: relative;
+    box-shadow: 
+        -4px 2px 1px 1px grey,
+        -4px -2px 1px 1px lightgray,
+        4px 0px 1px 1px lightgray;
+  }
+  
+  .timerDisplay::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: 5px solid #408e60;
+    z-index: -1;
+    animation: blink 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes blink {
+    from {
+      opacity: 0.5;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
