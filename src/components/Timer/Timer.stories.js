@@ -5,13 +5,12 @@ export default {
   component: Timer,
   argsTypes: {
     time: { control: 'number' },
-    onFinish: { control: 'func' },
+    onFinish: { action: 'Finished' },
   },
 }
 
 export const Default = {
   args: {
     time: 5,
-    onFinish: () => {},
   },
 }
